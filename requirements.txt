@@ -1,0 +1,6 @@
+Flask
+gunicorn
+# other libraries you use, e.g.
+requests
+transformers
+sentence-transformers
