@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn Insurance_advisor.Project.flask server.app:app
