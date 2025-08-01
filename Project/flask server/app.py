@@ -11,7 +11,7 @@ CORS(app)
 model = SentenceTransformer('sentence-transformers/multi-qa-MiniLM-L6-cos-v1')
 
 
-df = pd.read_csv('C:/Users/Abhijeet/OneDrive/Documents/New folder/PolicyX/data/vector_dataset.csv')
+df = pd.read_csv('vector_dataset.csv')
 
 def to_list(x):
     x = x.strip("[]")
